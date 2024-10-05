@@ -1,0 +1,14 @@
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\bin\Debug\net8.0\ATMwithOOP.exe
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\bin\Debug\net8.0\ATMwithOOP.deps.json
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\bin\Debug\net8.0\ATMwithOOP.runtimeconfig.json
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\bin\Debug\net8.0\ATMwithOOP.dll
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\bin\Debug\net8.0\ATMwithOOP.pdb
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ATMwithOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ATMwithOOP.AssemblyInfoInputs.cache
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ATMwithOOP.AssemblyInfo.cs
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ATMwithOOP.csproj.CoreCompileInputs.cache
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ATMwithOOP.dll
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\refint\ATMwithOOP.dll
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ATMwithOOP.pdb
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ATMwithOOP.genruntimeconfig.cache
+C:\Users\Busher\source\repos\ATMwithOOP\ATMwithOOP\obj\Debug\net8.0\ref\ATMwithOOP.dll
