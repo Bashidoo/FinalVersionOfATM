@@ -132,6 +132,7 @@ namespace ATMwithOOP
             {
                 Console.WriteLine("\nPersonal Account");
                 base.DisplayUserInfo();
+
             }
         }
 
@@ -139,7 +140,12 @@ namespace ATMwithOOP
         {
             public SavingAccount(string name, int cardnumber, double startbalance) : base(name, cardnumber, startbalance)
             {
-                Console.WriteLine("Saving Account");
+          
+            }
+
+            public override void DisplayUserInfo()
+            {
+                Console.WriteLine("\n Saving Account");
                 base.DisplayUserInfo();
             }
         }

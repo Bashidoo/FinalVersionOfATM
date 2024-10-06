@@ -11,7 +11,7 @@ namespace ATMwithOOP
     public class ATMScreen
     {
         private bankaccountClass accountobJ1; // creating variable of the objects so it can be used inside the methods
-       private bankaccountClass accountobJ2; // creating variable of the objects so it can be used inside the methods
+        private bankaccountClass accountobJ2; // creating variable of the objects so it can be used inside the methods
 
         public ATMScreen(bankaccountClass account1, bankaccountClass account2)
         {
@@ -100,9 +100,9 @@ namespace ATMwithOOP
         private void HandleCheckBalance()
         {
             Console.WriteLine("\nEnter Account Number: ");
-            string? senderCardInput = Console.ReadLine();
+            string? senderCardInputstring = Console.ReadLine();
 
-            if (int.TryParse(senderCardInput, out int senderCardNumber))
+            if (int.TryParse(senderCardInputstring, out int senderCardNumber))
             {
 
                 bankaccountClass senderAccount = FindAccountByCardNumber(senderCardNumber);
@@ -126,9 +126,9 @@ namespace ATMwithOOP
         {
             Console.WriteLine("\nEnter the sender Card number: ");
 
-            string? senderCardInput = Console.ReadLine();
+            string? senderCardInputstring = Console.ReadLine();
 
-            if (int.TryParse(senderCardInput, out int senderCardNumber))
+            if (int.TryParse(senderCardInputstring, out int senderCardNumber))
             {
 
                 bankaccountClass senderAccount = FindAccountByCardNumber(senderCardNumber);
@@ -180,15 +180,15 @@ namespace ATMwithOOP
         private void HandleWithdraw()
         {
             Console.WriteLine("\nEnter Account number");
-            string? senderCardInput = Console.ReadLine();
-            if (int.TryParse(senderCardInput, out int recieverCardNumber))
+            string? senderCardInputstring = Console.ReadLine();
+            if (int.TryParse(senderCardInputstring, out int recieverCardNumber))
             {
-                bankaccountClass recieveraccount = FindAccountByCardNumber(recieverCardNumber);
+                bankaccountClass recieveraccount = FindAccountByCardNumber(recieverCardNumber); // writing the method itself won't solve it. 
 
                 if (recieveraccount != null)
                 {
                     Console.WriteLine("Enter amount to be withdrawn from account");
-                    string amountInput = Console.ReadLine();
+                    string? amountInput = Console.ReadLine();
 
                     if (double.TryParse(amountInput, out double amount) && amount > 0)
                     {
